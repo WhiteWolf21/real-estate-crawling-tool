@@ -1,0 +1,79 @@
+var maptimes = {
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "MaptimeSF"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.41942584514618,
+          37.76493060428678
+        ]
+      }
+    },
+               {
+               "type": "Feature",
+               "properties": {
+               "name": "292 Cao Thắng Phường 12, Quận 10",
+               "city" : "Hồ Chí Minh",
+               "twitter" : "@MapTimeStJohns",
+               "meetup" : "http://www.meetup.com/MapTime_StJohns/events/167180662/"
+               },
+               "geometry": {
+               "type": "Point",
+               "coordinates": [
+                               106.673200, 10.774950
+                               ]
+               }
+               },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "19 Trường Sơn, Phường 15, Quận 10, Hồ Chí Minh",
+               "city" : "Portland",
+               "twitter" : "@MapTimeStJohns",
+               "meetup" : "http://www.meetup.com/MapTime_StJohns/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.666250,
+          10.785280
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "268 Lý Thường Kiệt, Phường 14, Quận 10, Hồ Chí Minh",
+        "city" : "Cleveland",
+        "twitter" : "@OpenGeoCle"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.657837,
+          10.771730
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "7A/19 Thành Thái, Phường 14, Quận 10, Hồ Chí Minh",
+               "city" : "New York",
+               "meetup" : "http://www.meetup.com/Maptime-NYC/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.661949,
+          10.770540
+        ]
+      }
+    }
+  ]
+}
