@@ -1,6 +1,11 @@
 # real-estate-crawling-tool
 Tools that used to crawl real estate data from facebook groups and big real estate websites
 
+# 1a
+## The_Holy
+
+Tool that used to crawl real estate data from facebook groups. The instructions are included in README.md in "The_Holy" folder !!!
+
 # 1b
 ## crawl_big_websites
 
@@ -9,11 +14,6 @@ Tool that used to crawl real estate data from big real estate websites. The inst
 ## tag_service
 
 NLP tool to filter type of text that suitable to type of real estate data. The instructions are included in README.md in "tag_service" folder !!!
-
-# 1a
-## The_Holy
-
-Tool that used to crawl real estate data from facebook groups. The instructions are included in README.md in "The_Holy" folder !!!
 
 # Base for 1c
 ## WebApp
