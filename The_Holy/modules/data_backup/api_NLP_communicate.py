@@ -1,6 +1,6 @@
 import requests
 
-url = "http://35.240.240.251/api/v1/real-estate-extraction"
+url = "http://localhost:3000/api/v1/real-estate-extraction"
 
 data = 'Chính chủ 02 lô đất Củ Chi , liền kề nhau.  Dt: 1.000m2 giá 770 triệu/ 1.000m2 , ' \
        'sổ còn thơm mùi giấy chưa qua kinh doanh , ' \

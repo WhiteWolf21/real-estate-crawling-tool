@@ -76,9 +76,7 @@ def crawl_comm(signin_driver, links):
         except NoSuchElementException:
             pass
 
-
         post_info = PostInfo()
-
 
         # ############### TESTING MODULE ###############
         # print(signin_driver.page_source)
@@ -93,6 +91,8 @@ def crawl_comm(signin_driver, links):
         except IndexError:
             # link is not valid
             continue
+        
+        print(1)
             
         post_info.set_group_id(tmp[0])
         post_info.set_post_id(tmp[1])
@@ -103,7 +103,8 @@ def crawl_comm(signin_driver, links):
         # assign date the post is published
         try:
             datetime_str = signin_driver.find_element_by_xpath("//a[@class='_5pcq']/abbr").get_attribute('title')
-            post_info.set_date_post(get_datetime(str(datetime_str)))
+            # post_info.set_date_post(get_datetime(str(datetime_str)))
+            post_info.set_date_post(str(datetime_str))
         except NoSuchElementException:
             pass
 
@@ -184,7 +185,9 @@ def crawl_comm(signin_driver, links):
         # assign comment for post
         #comments = signin_driver.find_elements_by_class_name('_72vr')
         comments_replies = signin_driver.find_elements_by_xpath("//div[@aria-label='Comment' or @aria-label='Comment reply']")        
-      
+
+        print(2)
+
         if len(comments_replies) > 0:
             # if post has comment(s)           
             
@@ -270,9 +273,12 @@ def crawl_comm(signin_driver, links):
 
         # append to posts_info        
         posts_info.append(post_info)
+        print(posts_info)
     
-            
-    store_data(posts_info)
+    
+    # store_data(posts_info)
+
+
 
     signin_driver.quit()
 

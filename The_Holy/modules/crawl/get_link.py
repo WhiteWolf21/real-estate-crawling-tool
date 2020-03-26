@@ -17,6 +17,8 @@ def random_waiting(min, max):
 def get_link(signin_driver):
     seed(342)
 
+    sleep(random_waiting(0.3, 0.6))
+
     signin_driver.get(settings.GROUP)
     body = signin_driver.find_element_by_tag_name('body')
 
