@@ -14,7 +14,7 @@
     "fs": "0.0.1-security",
     "geolib": "^3.1.0",
     "geolocation-utils": "^1.2.2",
-    "mongoose": "^4.13.19",
+    "mongoose": "^4.13.21",
     "morgan": "^1.9.1",
     "node-libcurl": "^2.0.3",
     "node-local-tunnel": "^0.1.8",
